@@ -109,7 +109,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Camara`,
+      copyright: `Copyright © ${new Date().getFullYear()} Camaradotspace`,
     },
   },
   presets: [

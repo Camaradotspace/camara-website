@@ -53,3 +53,39 @@
   display: block;
   width: 60px;
 }
+
+.details {
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem 0 1rem 0;
+}
+
+.bio {
+  width: 45%;
+}
+
+.design {
+  width: 45%;
+}
+
+.design img {
+  display: block;
+  width: 100%;
+}
+
+@media screen and (max-width: 1023px) {
+  .details {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 1rem 0;
+  }
+
+  .bio,
+  .design {
+    width: 100%;
+  }
+
+  .design {
+    margin-bottom: 2rem;
+  }
+}
