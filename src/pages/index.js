@@ -41,10 +41,7 @@ export default function Homepage() {
             </p>
           </div>
           <div className={styles.design}>
-            <img
-              src="../../static/img/design.svg"
-              alt="illustration of design system"
-            />
+            <img src="/img/design.svg" alt="illustration of design system" />
           </div>
         </div>
         <div>
