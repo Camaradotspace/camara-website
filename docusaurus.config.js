@@ -19,9 +19,9 @@ module.exports = {
           to: "docs/",
           activeBasePath: "docs",
           label: "Docs",
-          position: "left",
+          position: "right",
         },
-        { to: "blog", label: "Blog", position: "left" },
+        // { to: "blog", label: "Blog", position: "left" },
         {
           href: "https://github.com/Camaradotspace/Camara",
           label: "GitHub",
@@ -33,38 +33,71 @@ module.exports = {
       style: "dark",
       links: [
         {
-          title: "Docs",
+          title: "Camara",
           items: [
             {
-              label: "Style Guide",
+              label: "Why Camara",
               to: "docs/",
             },
             {
-              label: "Second Doc",
+              label: "About Camara",
+              to: "docs/doc2/",
+            },
+            {
+              label: "Roadmap",
               to: "docs/doc2/",
             },
           ],
         },
         {
-          title: "Community",
+          title: "Open Source",
           items: [
             {
-              label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/docusaurus",
+              label: "License",
+              to: "docs/",
             },
             {
-              label: "Discord",
-              href: "https://discordapp.com/invite/docusaurus",
+              label: "Contribution Guide",
+              to: "docs/doc2/",
             },
             {
-              label: "Twitter",
-              href: "https://twitter.com/docusaurus",
+              label: "Code of Conduct",
+              to: "docs/",
+            },
+            {
+              label: "What's New?",
+              to: "docs/doc2/",
             },
           ],
         },
+        // {
+        //   title: "Community",
+        //   items: [
+        //     {
+        //       label: "Stack Overflow",
+        //       href: "https://stackoverflow.com/questions/tagged/docusaurus",
+        //     },
+        //     {
+        //       label: "Discord",
+        //       href: "https://discordapp.com/invite/docusaurus",
+        //     },
+        //     {
+        //       label: "Twitter",
+        //       href: "https://twitter.com/docusaurus",
+        //     },
+        //   ],
+        // },
         {
           title: "More",
           items: [
+            {
+              label: "Figma Design Library",
+              to: "blog",
+            },
+            {
+              label: "Sample Projects",
+              to: "blog",
+            },
             {
               label: "Blog",
               to: "blog",
@@ -85,7 +118,7 @@ module.exports = {
       {
         docs: {
           // It is recommended to set document id as docs home page (`docs/` path).
-          homePageId: "doc1",
+          homePageId: "why-camara",
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           editUrl: "https://github.com/Camaradotspace/Camara",
