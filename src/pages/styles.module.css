@@ -1,0 +1,55 @@
+/* stylelint-disable docusaurus/copyright-header */
+
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.heading {
+  font-size: 64px;
+  margin: 0;
+  padding: 0;
+}
+
+.tagline {
+  font-size: 20px;
+}
+
+.heroSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 3rem auto;
+}
+
+.cta {
+  margin: 2rem 0;
+}
+
+.cta a {
+  margin-right: 2rem;
+  border-radius: 2rem;
+  text-decoration: none;
+}
+
+.cta a:first-of-type {
+  background-color: #ee7762;
+  padding: 0.75rem 2rem;
+  color: #fff;
+}
+
+.cta a:first-of-type:hover {
+  background-color: #e6664f;
+  color: #fff;
+}
+
+.cta a:last-of-type:hover {
+  border-bottom: 2px solid #ee7762;
+  border-radius: 0;
+  padding: 4px 0;
+}
+
+.heroSection img {
+  display: block;
+  width: 60px;
+}
