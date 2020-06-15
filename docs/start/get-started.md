@@ -1,6 +1,6 @@
 ---
 id: get-started
-title: Get Started
-sidebar_label: Get Started
+title: Installation
+sidebar_label: Installation
 description: Get started with Camara, installation, configuration, set up etc.
 ---

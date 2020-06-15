@@ -8,6 +8,7 @@ module.exports = {
   organizationName: "camaradotspace", // Usually your GitHub org/user name.
   projectName: "camara-website", // Usually your repo name.
   themeConfig: {
+    // sidebarCollapsible: false,
     navbar: {
       title: "Camara",
       logo: {
@@ -119,7 +120,7 @@ module.exports = {
       {
         docs: {
           // It is recommended to set document id as docs home page (`docs/` path).
-          homePageId: "camara/why-camara",
+          homePageId: "camara/introduction",
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           editUrl: "https://github.com/Camaradotspace/Camara",
