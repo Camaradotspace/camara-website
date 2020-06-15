@@ -37,15 +37,15 @@ module.exports = {
           items: [
             {
               label: "Why Camara",
-              to: "docs/",
+              to: "docs/camara/why-camara",
             },
             {
               label: "About Camara",
-              to: "docs/doc2/",
+              to: "docs/camara/about/",
             },
             {
               label: "Roadmap",
-              to: "docs/doc2/",
+              to: "docs/releases/roadmap/",
             },
           ],
         },
@@ -54,19 +54,19 @@ module.exports = {
           items: [
             {
               label: "License",
-              to: "docs/",
+              to: "docs/oss/license",
             },
             {
               label: "Contribution Guide",
-              to: "docs/doc2/",
+              to: "docs/oss/contribution-guide/",
             },
             {
               label: "Code of Conduct",
-              to: "docs/",
+              to: "docs/oss/code-of-conduct",
             },
             {
               label: "What's New?",
-              to: "docs/doc2/",
+              to: "docs/releases/changelog/",
             },
           ],
         },
@@ -92,19 +92,20 @@ module.exports = {
           items: [
             {
               label: "Figma Design Library",
-              to: "blog",
+              to: "docs/resources/figma-design-library",
             },
             {
               label: "Sample Projects",
-              to: "blog",
+              to: "docs/resources/sample-projects",
             },
             {
               label: "Blog",
-              to: "blog",
+              // to: "blog",
+              to: "docs/",
             },
             {
               label: "GitHub",
-              href: "https://github.com/facebook/docusaurus",
+              href: "https://github.com/Camaradotspace/Camara",
             },
           ],
         },
@@ -118,7 +119,7 @@ module.exports = {
       {
         docs: {
           // It is recommended to set document id as docs home page (`docs/` path).
-          homePageId: "why-camara",
+          homePageId: "camara/why-camara",
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           editUrl: "https://github.com/Camaradotspace/Camara",

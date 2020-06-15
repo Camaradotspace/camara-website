@@ -20,3 +20,7 @@ Building a design system from the ground up comes with a lot of learning opportu
 More importantly, by being the developers and users, it means that we can tell if what we have created meets our real needs - make building our side projects easy. Incredibly easy that it almost feels like cheating.
 
 We're so excited 😍 to see what this turns into, and we can't stop thinking of the amazing projects that would be built with this. We feel so pumped and proud 💪🏾.
+
+## The Team
+
+Our team officially formed in mid 2020 with x team members, we're from diverse backgrounds and enjoy working together.
