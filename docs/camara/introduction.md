@@ -11,7 +11,9 @@ It's our first time open-sourcing a serious project, and we want to increase our
 
 The Camara homepage provides expanded guidance and documentation on the design language, component library and style/pattern guide. We want our users to have as much information as possible while exploring Camara.
 
-If you’re new to Camara, start with our [getting started guide](/docs/start/get-started). It has everything you need to design and develop your side projects with Camara.
+<!-- If you’re new to Camara, start with our [getting started guide](/docs/start/get-started). It has everything you need to design and develop your side projects with Camara. -->
+
+If you’re new to Camara, start with our getting started guide. It has everything you need to design and develop your side projects with Camara.
 
 ## Production Use
 
