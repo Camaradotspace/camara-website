@@ -1,33 +1,76 @@
-# Website
+# Camara Design System
 
-This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
+![alt text](./static/img/logo.png)
 
-### Installation
+This is the [Camara Design System website](https://camara.space). This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
+
+The Camara homepage provides expanded guidance and documentation on the design language, component library and style/pattern guide. We want our users to have as much information as possible while exploring Camara.
+
+## 🤝 Contributing
+
+Thank you so much for wanting to contribute to the website! We could really use a hand at making it the best it can be, see [the issues](https://github.com/Camaradotspace/Camara-website/issues) for some ideas on where to start.
+
+If you've never worked with the technologies used in this repo, here are some links that may help:
+
+- [Docusaurus documentation](http://docusaurus-2.netlify.com/docs/installation)
+- [Classnames](https://github.com/JedWatson/classnames)
+
+To develop the website locally, you'll want to run the development server:
+
+```sh
+# Download the repo
+git clone https://github.com/Camaradotspace/Camara-website.git
+
+# Enter the repo
+cd Camara-website
+
+# Install the dependencies
+yarn install
+
+# Start local development
+yarn run start
+```
+
+> Note: This requires Node.js and npm to be set up locally, see [nodejs.org](https://nodejs.org) for more information.
+
+## 📂 Folder structure
 
 ```
-$ yarn
+Camara-website
+├── blog
+├── docs
+    ├── camara
+    ├── components
+    ├── guidelines
+    ├── oss
+    ├── releases
+    ├── resources
+    ├── start
+├── src
+    ├── css
+    ├── pages
+├── static
 ```
 
-### Local Development
+## 👨🏽‍💻 Resources
+
+- 🤝[Contribution guidelines](.github/CONTRIBUTING.md)
+- `yarn install` – install dependencies
+- `yarn run start` – start the development server
+- `yarn dev:clean` – use this if you have cache issues
+- `lint:js` – lint your JavaScript files
+- `format` - run Prettier
+
+## 🚀 Build
+
+Running the build command generates all the files and places them in the `public` folder.
 
 ```
-$ yarn start
+npm run build
 ```
 
-This command starts a local development server and open up a browser window. Most changes are reflected live without having to restart the server.
+## 🚁 Got stuck?
 
-### Build
+If you get stuck somewhere while trying to make this website better, feel free to reach out on [Twitter](https://m.twitter.com/preshonyee) let's resolve it together!
 
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-```
-$ GIT_USER=<Your GitHub username> USE_SSH=true yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+Camara is [MIT-licensed](./LICENSE.md).
