@@ -33,18 +33,18 @@
 }
 
 .cta a:first-of-type {
-  background-color: #e6664f;
+  background-color: #306597;
   padding: 0.75rem 2rem;
   color: #fff;
 }
 
 .cta a:first-of-type:hover {
-  background-color: #dd543b;
+  background-color: #4d9be6;
   color: #fff;
 }
 
 .cta a:last-of-type:hover {
-  border-bottom: 2px solid #ee7762;
+  border-bottom: 2px solid #4d9be6;
   border-radius: 0;
   padding: 4px 0;
 }
