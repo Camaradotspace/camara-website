@@ -8,6 +8,15 @@ module.exports = {
   organizationName: "camaradotspace", // Usually your GitHub org/user name.
   projectName: "camara-website", // Usually your repo name.
   themeConfig: {
+    image: "img/logo.png",
+    defaultDarkMode: false,
+    announcementBar: {
+      id: "star_us", // Any value that will identify this message.
+      content:
+        '🤩If you like Camara, please give it a star ⭐️ on <a target="_blank" rel="noopener noreferrer" href="https://github.com/Camaradotspace/Camara">GitHub</a> 🤩',
+      backgroundColor: "#306597", // Defaults to `#fff`.
+      textColor: "#fff", // Defaults to `#000`.
+    },
     // sidebarCollapsible: false,
     navbar: {
       title: "Camara",
@@ -31,7 +40,12 @@ module.exports = {
       ],
     },
     footer: {
-      style: "dark",
+      style: "light",
+      logo: {
+        alt: "Camara Logo",
+        src: "img/logo.png",
+        href: "https://github.com/Camaradotspace",
+      },
       links: [
         {
           title: "Camara",

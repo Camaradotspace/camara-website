@@ -5,16 +5,26 @@
  * work well for content-centric websites.
  */
 
+@import url("https://rsms.me/inter/inter.css");
+html {
+  font-family: "Inter", sans-serif;
+}
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: "Inter var", sans-serif;
+  }
+}
+
 /* You can override the default Infima variables here. */
 :root {
   /* This color scheme is generated with the color tool from the  docusaurus site. The primary color #79b453 is gotten from the Peacock stripes from the logo*/
-  --ifm-color-primary: #ee7762;
-  --ifm-color-primary-dark: #eb5d44;
-  --ifm-color-primary-darker: #e95035;
-  --ifm-color-primary-darkest: #d43317;
-  --ifm-color-primary-light: #f19180;
-  --ifm-color-primary-lighter: #f39e8f;
-  --ifm-color-primary-lightest: #f8c6bd;
+  --ifm-color-primary: #4d9be6;
+  --ifm-color-primary-dark: #328ce2;
+  --ifm-color-primary-darker: #2584e0;
+  --ifm-color-primary-darkest: #1a6dbc;
+  --ifm-color-primary-light: #68aaea;
+  --ifm-color-primary-lighter: #75b2ec;
+  --ifm-color-primary-lightest: #9ec8f1;
   --ifm-code-font-size: 95%;
 }
 

@@ -17,7 +17,7 @@ export default function Homepage() {
   return (
     <Layout
       title={`${siteConfig.title} | ${siteConfig.tagline}`}
-      description={`Description will go into a meta tag in <head/>`}
+      description={`${siteConfig.tagline}`}
     >
       <main className={classnames("container", styles.heroSection)}>
         <img src={logoUrl} alt="Camara's logo" />
