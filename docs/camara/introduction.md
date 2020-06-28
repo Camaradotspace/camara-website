@@ -5,8 +5,8 @@ sidebar_label: Introduction
 description: ""
 ---
 
-:::note
-It's our first time open-sourcing a serious project, and we want to increase our chances of having a positive experience. We hope this helps us communicate the right expectations on our work.
+:::note IMPORTANT
+It's our first time open-sourcing a serious project, and we want to increase our chances of having a positive experience. We hope this guide helps us communicate the right expectations on our work.
 :::
 
 The Camara homepage provides expanded guidance and documentation on the design language, component library and style/pattern guide. We want our users to have as much information as possible while exploring Camara.
@@ -15,7 +15,9 @@ If you’re new to Camara, start with our [getting started guide](/docs/start/ge
 
 ## Production Use
 
-Camara isn’t ready for production use yet, but we want to give you an early preview of what’s coming. We'd love you to give it a try. As always, we encourage feedback and contributions. We plan to launch Beta this summer and 1.0 early next year.
+Camara isn’t ready for production use yet, but we want to give you an early preview of what’s coming. We'd love you to give it a try. As always, we encourage feedback and contributions. We plan to launch Beta this summer and a production ready version early next year.
+
+Some of our components and utilities are currently offered as previews. This means that these components and utilities are in active development but ready to try out! We are hoping you will share your feedback on these new components.
 
 ## Contributions
 
