@@ -143,6 +143,8 @@ module.exports = {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl: "https://github.com/Camaradotspace/Camara",
+          blogDescription:
+            "News, updates and releases on the Camara Design System",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
